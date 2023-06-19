@@ -2,7 +2,7 @@ const TelegramBot = require('node-telegram-bot-api');
 const express = require('express');
 const cors = require('cors');
 
-const token = '6051525678:AAFs9Vdmu7t3x4fl8bpadd942_qZpKVM6rU'
+const token = 'your bot token'
 const webAppUrl = 'https://master--transcendent-tanuki-6e5de3.netlify.app';
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
